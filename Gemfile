@@ -13,6 +13,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   gem 'sqlite3'  
   gem 'rspec-rails', '~> 3.4', '>= 3.4.2'
+  gem 'guard-rspec', require: false
+  gem 'spring-commands-rspec'
   gem 'byebug'
 end
 
