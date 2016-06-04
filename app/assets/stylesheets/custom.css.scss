@@ -2,14 +2,14 @@
 @import "bootstrap-sprockets";
 
 // Import cerulean variables
-@import "bootswatch/cerulean/variables";
+@import "bootswatch/flatly/variables";
 
 // Then bootstrap itself
 @import "bootstrap";
 
 // And finally bootswatch style itself
-@import "bootswatch/cerulean/bootswatch";
+@import "bootswatch/flatly/bootswatch";
 
 
 // Bootstrap body padding for fixed navbar
-body { padding-top: 60px; }
+body { padding-top: 65px; }
